@@ -1,0 +1,1 @@
+export { getGpuTemperature, getCpuTemperature } from "./functions/function-calls"
