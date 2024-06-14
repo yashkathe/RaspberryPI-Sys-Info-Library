@@ -1,7 +1,7 @@
 {
     "name": "raspberrypi-sys-info",
     "version": "0.1.1",
-    "description": "A Node.js library to retrieve system information (temperature, memory usage, disk activity, etc.) from a Raspberry Pi.",
+    "description": "A Node.js library to retrieve system information (temperature, memory usage, disk activity, etc.) from a Raspberry Pi. This library wraps system calls in Node.js using Typescript for easy access to Raspberry Pi's hardware stats ",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "scripts": {
@@ -19,7 +19,8 @@
     "keywords": [
         "raspberry-pi",
         "rpi",
-        "raspberrypi"
+        "raspberrypi",
+        "raspberry pi system stats"
     ],
     "author": "Yash Sanjay Kathe",
     "license": "MIT",
