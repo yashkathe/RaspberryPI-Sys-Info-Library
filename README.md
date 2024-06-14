@@ -1,6 +1,6 @@
 # Raspberry PI Sys 
 
-This project is an npm library for extracting various metrics from a Raspberry Pi. It includes functions to read CPU and GPU temperatures, disk usage, network statistics, system uptime, load average, and voltage information.
+This project is an npm library for extracting various metrics from Raspberry Pi.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -24,11 +24,11 @@ Below is an example of how to use the library to fetch and display various metri
 ### Example Code
 
 ```typescript
-import { getCPUTemperature, getGpuTemperature } from 'rpi-metrics-lib';
+import { getCpuTemperature, getGpuTemperature } from 'raspberrypi-sys-info';
 
 async function displaySystemInfo() {
     try {
-        const cpuTemp = await getCPUTemperature();
+        const cpuTemp = await getCpuTemperature();
         console.log(`CPU Temperature: ${cpuTemp}°C`);
 
         const gpuTemp = await getGpuTemperature();
