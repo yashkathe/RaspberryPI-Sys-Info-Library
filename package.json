@@ -1,6 +1,6 @@
 {
     "name": "raspberrypi-sys-info",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "A Node.js library to retrieve system information (temperature, memory usage, disk activity, etc.) from a Raspberry Pi. This library wraps system calls in Node.js using Typescript for easy access to Raspberry Pi's hardware stats ",
     "main": "build/index.js",
     "types": "build/index.d.ts",
