@@ -1,1 +1,6 @@
-export { getGpuTemperature, getCpuTemperature } from "./functions/function-calls"
+export {
+    getGpuTemperature,
+    getCpuTemperature,
+    getCpuFrequency
+}
+    from "./functions/function-calls"
